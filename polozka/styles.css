@@ -1,0 +1,115 @@
+ 
+img { /* Obrázek */
+    width: 330px;
+}
+p { /* Popis */
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.photoOfCard { /* obrázek */
+    text-align: center;
+}
+.card { /* Hlavní main  */
+    box-sizing: border-box;
+    width: 350px;
+    height: 620px;
+    background-color: var(--main-background);
+    padding: 10px;
+    position: relative;
+}
+.sell { /* Ikonka bestseller  */
+    display: inline-block;
+    background-color: var(--best-seller);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: 20px;
+}
+.percent { /* sleva v procentech */
+    display: inline-block;
+    background-color: var(--second-background);
+    color: var(--main-background);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 9px;
+    top: 15px;
+
+}
+
+.year-product{ /* Produkt roku */
+    display: inline-block;
+    background-color: var(--second-background);
+    color: var(--main-background);
+    padding: 5px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: 50px;
+}
+.title { /* Nadpis */
+    text-align: center;
+    margin: 5px;
+} 
+.sales { /* Ceny, košik */
+    background-color: var(--sales-background);
+    box-sizing: content-box;
+    position: relative;
+    height: 50px;
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+}
+.price { /* Cena produktu */
+    font-size: 28px;
+    position: absolute;
+    left: 30px;
+}
+.discount { /*Sleva ceny */
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.button { /* Tlačítko košík */
+    display: inline-block;
+    position: absolute;
+    background-color: var(--main-background);
+    border: 1px solid var(--letter-black);
+    padding: 5px;
+    border-radius: 10px;
+    right: 20px;
+    top: 25px;
+}
+.button:hover { 
+    cursor: pointer;
+}
+.letter { /* Pošta a info */
+    position: relative;
+    box-sizing: content-box;
+    width: 300px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    background-color: var(--letter-background);
+    color: var(--letter-color);
+    margin-top: 0px;
+    height: 40px;
+    line-height: 2.5;
+    
+}
+
+.info { /* Info */
+    position: absolute;
+    right: 10px;
+}
+.info:hover { 
+    color: var(--second-background);
+    cursor: pointer;
+}
+    
